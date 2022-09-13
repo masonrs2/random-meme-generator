@@ -1,13 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Nunito', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main {
+  padding: 45px;
+}
+
+.nav-rectangle {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background-color: aqua;
+
+  align-items: center;
+  background: linear-gradient(90deg, #545858 1.18%, #000000 100%);
+  color: white;
+}
+
+.nav-icon-title {
+  position: absolute;
+  top: 10px;
+  width: 500px;
+  left: 22px;
+}
+
+.troll-icon {
+  width: 55px;
+  height: 55px;
+  margin: 10px;
+
+  position: absolute;
+  padding-left: 40px;
+  top: 13px;
+}
+
+.nav-title {
+  margin-left: 80px;
+  position: absolute;
+  left: 40px;
+  top: 2px;
+  
+  font-size: 35px;
+
+}
+
+.nav-course-name {
+  position: absolute;
+  left: 1250px;
+  top: 23px;
+  font-weight: 500px;
+}
+
+.form {
+  display: grid;
+  grid-template: 50px 50px / 1fr 1fr;
+  gap: 20px;
+  
+}
+
+.form-input {
+  font-family: 'Nunito', sans-serif;
+  border-radius: 5px;
+  border: 2px solid #D5D4D8;
+  text-indent: 10px;
+}
+
+.form-button {
+  grid-column: 1 / -1;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  color: white;
+
+  background: linear-gradient(95deg, #545858 1.18%, #000000 100%);
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.emoji {
+  margin-left:5px;
+
+}
+
+.meme {
+  position: relative;
+}
+
+.meme-image {
+  padding-top: 30px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.meme-text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 6em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
 }
